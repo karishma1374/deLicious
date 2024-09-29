@@ -1,22 +1,64 @@
-# deLicious
+# 🔥 Licious AI-Driven Meat Recipe Generator 🍗✨
+
+> **Personalized Non-Vegetarian Recipes Using AI** | Powered by Licious Products 🥩
+
+Welcome to the **AI-Driven Meat Recipe Generator** repository! This app delivers personalized, dynamic recipes based on your preferences and Licious product offerings, creating a tailored non-vegetarian culinary experience.
 
 
-### Challenge Title:
-- Develop an AI-Driven Meat Recipe Generator That Creates and Suggests Unique, Customized Recipes Using Licious's Product Range and User Preferences.
 
+## 🌟 **Features**
+- **🍴 AI-Powered Recipe Suggestions:** Get customized non-veg recipes based on your preferences and Licious products.
+- **🔄 Dynamic Ingredient Utilization:** Tailor recipes with ingredients on hand, and get real-time adjustments.
+- **✨ Beautiful UI/UX:** Smooth, interactive interface with stunning visuals.
+- **🔐 Simple Login/Signup:** Users can sign up and log in using their phone numbers and OTP for secure access.
+- **🌟 Popular Recipes Page:** Discover trending recipes that are loved by the community.
+- **❤️ Favorites Page:** Users can save their favorite recipes for quick access later.
+- **⚙️ User Preferences Form:** Users can add their dietary restrictions, preferences, and other details, which are saved in the database for a personalized experience.
 
-### **deLicious**
+## 🗂️ **Pages Included**
+1. **Home Page** 🏠
+   - Introduction to Licious and the AI recipe generator.
+   - Quick access to generate a new recipe.
+   
+2. **Recipe Generator Page** 🍳
+   - Input your preferences and watch the magic happen!
+   - View generated recipes with options to tweak and refine based on taste.
 
-Let's imagine after a busy day, you stroll into your kitchen, craving a hearty non-veg dish but feeling stumped about what to make. You glance at the fresh chicken, succulent prawns, and premium cuts of mutton you just bought from **Licious**, but inspiration escapes you. That’s where the **Licious AI Recipe Chatbot** comes in – your ultimate culinary guide dedicated solely to crafting delicious, personalized non-vegetarian recipes.
+3. **User Preferences Page** ⚙️
+   - Set up preferences for non-veg type, spice levels, cooking time, dietary restrictions, etc.
+   - AI learns and adapts with each selection.
 
-With just a few taps, you share what you have on hand and your preferences. Do you want something spicy, creamy, or grilled to perfection? we got you covered. deLicious into action, leveraging cutting-edge generative AI to conjure up unique recipes exclusively from Licious’ product range. Whether it’s a **zesty chicken tikka**, a flavorful **mutton curry**, or a delightful **prawn stir-fry**, the options are tailored to highlight the quality and freshness that Licious is known for.
+4. **Login/Signup Page** 🔑
+   - Secure login and signup using phone numbers and OTP.
 
-But this chatbot isn’t just smart; it speaks your language! You can engage with it in your preferred tongue, making the cooking experience feel even more personal. As it serves up enticing recipe suggestions, it also takes into account your dietary preferences and spice levels, ensuring every dish is crafted just for you.
+5. **Popular Recipes Page** 🌟
+   - Display a collection of trending recipes that users can browse.
 
-The Licious AI Recipe Chatbot transforms your kitchen into a culinary adventure, allowing you to explore the vast world of non-vegetarian cooking with ease. Each recipe is designed to elevate your meals using Licious’ top-quality meats and seafood, making cooking fun and accessible. Plus, as you interact with it, the chatbot learns your tastes, refining its suggestions over time.
+6. **Favorites Page** ❤️
+   - Users can view their saved favorite recipes for quick access.
 
-Ready to elevate your dining experience? Let the **Licious AI Recipe Chatbot** guide you to mouthwatering non-veg recipes that celebrate the best of what Licious has to offer. Your next delicious meal is just a chat away!
+   
+## 🚀 **Quick Start: How to Run This App Locally**
 
----
-### Tech stack:
-Python, Flask, PostgreSQL, Chatgpt apis, Selenium, Postman for checking endpoints,  
+### Prerequisites:
+Make sure you have the following installed:
+- **Node.js** (v14 or higher)
+- **Python** (v3.8 or higher)
+- **Flask** framework
+- **PostgreSQL** database
+
+### Step-by-Step Guide:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/recipe-generator-licious.git
+   cd recipe-generator-licious
+2. **Install Frontend Dependencies:**
+   ```bash
+   cd frontend
+   npm install
+3.**Install Backend Dependencies:**
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+
